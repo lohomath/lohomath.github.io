@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Georg Loho @ Uni Kassel </title>
+    <meta name="description" content="Homepage of Georg Loho" />
+    <meta name="keywords"  content="Mathematics,LSE,Loho,Kassel,Discrete,Tropical" />
+    <link rel="stylesheet" href="css/mystyle.css"/>
+
+    <script>
+      function showInfo(y) {
+	  var x = document.getElementById(y)
+	  if (x.style.display === "none") {
+	      x.style.display = "block";
+	  } else {
+	      x.style.display = "none";
+	  }
+      }
+    </script>
+
+    <style>
+      body  {
+      background: url("img/leaf-structure-small.jpg") center;
+      background-attachment: fixed;
+      background-size: 99%;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="content">
+    <div class="container" id="topcontent">
+      <div class="textbox color_4">
+	<h1>Georg Loho</h1>
+
+	<a href="#aboutme" class="topicbutton">About Me</a>
+	<a href="#research" class="topicbutton">Research</a>
+	<a href="#teaching" class="topicbutton">Teaching</a>
+	<a href="#events" class="topicbutton">Events</a>
+	<a href="#furtherinterests" class="topicbutton">Further Interests</a>
+	
+      </div>
+    </div>
+    
+    <div class="container" id="aboutme">
+      <div class="textbox color_3">
+	<div class="aligncontainer">
+	  <div class="column-half">
+	    <h2>About Me</h2>
+	    <!-- <p>Email: g.loho (at) lse.ac.uk </p> -->
+
+	    <a href="https://www.uni-kassel.de/fb10/institute/mathematik/arbeitsgruppen/algorithmische-algebra-und-diskrete-mathematik/vertr-prof-dr-georg-loho.html"> Substitute Professor (Vertretungsprofessor) at Universit&auml;t Kassel</a>
+	    <ol style="list-style-type:none;">
+	      
+	      <br>
+	      <li> gloho ( A T ) mathematik.uni-kassel.de </li>
+	      <li> g.loho ( A T ) lse.ac.uk </li>
+	    </ol>
+
+	    <h3 id="CV"> Formerly </h3>
+	    <ul>
+	      <li> Postdoc at <a href="http://www.lse.ac.uk/maths/home.aspx" target="_blank">Department of Mathematics</a>, <a href="http://www.lse.ac.uk" target="_blank">London School of Economics</a>, Funded by the ERC Starting Grant of <a href="http://personal.lse.ac.uk/veghl/">L&aacute;szl&oacute; A. V&eacute;gh</a> (no. <a href="https://cordis.europa.eu/project/id/757481">757481</a>), 2019 - 2020 </li>
+	      <li> Postdoc at EPFL (with <a href="https://disopt.epfl.ch/page-10520-en-html/page-31595-en-html/eisenbrand/">Friedrich Eisenbrand)</a>, 2018</li>
+	      <li> Ph.D. student at TU Berlin (with <a href="https://page.math.tu-berlin.de/~joswig/">Michael Joswig</a>), 2013 - 2017</li>
+	      <li> Diploma in mathematics, Universit&auml;t W&uuml;rzburg (Supervisor <a href="https://www.mathematik.uni-wuerzburg.de/algebra/team/mueller-peter"> Peter M&uuml;ller</a>), 2008 - 2012</li>
+	    </ul>
+	  </div>
+	
+	  <div class="column-half">
+	    <img width="54%" height="auto" padding="10%" background-size="contain" align="right" src="img/cut-georg-lake.jpeg" alt="Georg Loho"/>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    
+    <div class="container" id="research">
+      <div class="textbox color_3">
+	<h2>Research</h2>
+	<h3>Areas of interest</h3>
+	(Discrete) Optimization, Polyhedral Geometry, Algorithmic Structures, Computational Complexity, Tropical Geometry, Discrete Geometry, Matroids
+
+	<h3>Publications</h3>
+	<ul>
+	  <li>
+	    <div onclick="showInfo('AbstractTET')" class="paperbutton" title="abstract"> Tropical Ehrhart Theory and Tropical Volume </div>
+	    with Matthias Schymura
+	    (<a href="https://link.springer.com/article/10.1007/s40687-020-00228-1">publication</a>)(<a href="https://arxiv.org/abs/1908.07893">arxiv</a>)(<a href="material/loho-slides-koeln.pdf">slides</a>)
+	    <br><i>Research in the Mathematical Sciences, 7(30) (2020) </i>
+	    <div id="AbstractTET" style="display:none"> <br><b>Abstract</b>
+	      We introduce a novel intrinsic volume concept in tropical geometry. This is achieved by developing the foundations of a tropical analog of lattice point counting in polytopes. We exhibit the basic properties and compare it to existing measures. Our exposition is complemented by a brief study of arising complexity questions.
+	    </div><br>
+	  </li>
+
+	  	  <li><div onclick="showInfo('AbstractMFLPS')" class="paperbutton" title="abstract"> Matching fields and lattice points of simplices </div>
+		    with Ben Smith (<a href="https://doi.org/10.1016/j.aim.2020.107232">publication</a>)(<a href="https://arxiv.org/abs/1804.01595">arxiv</a>)(<a href="material/talk-loho-aachen-darstellungstheorie.pdf">slides</a>)
+		    <br><i>Advances in Mathematics, 370 (2020), 107232</i>
+		    <div id="AbstractMFLPS" style="display:none"> <br><b>Abstract</b>
+		      We show that the Chow covectors of a linkage matching field define a bijection between certain degree vectors and lattice points, and we demonstrate how one can recover the linkage matching field from this bijection.
+  This resolves two open questions from Sturmfels and Zelevinsky (1993) on linkage matching fields. For this, we give an explicit construction that associates a bipartite incidence graph of an ordered partition of a common set to each lattice point in a dilated simplex.
+  Given a triangulation of a product of two simplices encoded by a set of spanning trees on a bipartite node set, we similarly prove that the bijection from left to right degree vectors of the trees is enough to recover the triangulation. As additional results, we show a cryptomorphic description of linkage matching fields and characterise the flip graph of a linkage matching field in terms of its prodsimplicial flag complex. Finally, we relate our findings to transversal matroids through the tropical Stiefel map.
+  	    </div><br>
+	  </li>
+	  <li><div onclick="showInfo('AbstractATLP')" class="paperbutton" title="abstract">Abstract tropical linear programming</div>
+	    (<a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v27i2p51">publication</a>)(<a href="https://arxiv.org/abs/1612.01890">arxiv</a>)
+	    <br><i>The Electronic Journal of Combinatorics, P2.51 (2020)</i>
+	    <div id="AbstractATLP" style="display:none"> <br><b>Abstract</b>
+In this paper we develop a combinatorial abstraction of tropical linear programming. This generalizes the search for a feasible point of a system of min-plus-inequalities. We obtain an algorithm based on an axiomatic approach to this generalization. It builds on the introduction of signed tropical matroids based on the polyhedral properties of triangulations of the product of two simplices and the combinatorics of the associated set of bipartite graphs with an additional sign information. Finally, we establish an upper bound for our feasibility algorithm applied to a system of min-plus-inequalities in terms of the secondary fan of a product of two simplices. The appropriate complexity measure is a shortest integer vector in a cone of the secondary fan associated to the system.
+	    </div> <br>
+</li>
+	  <li><div onclick="showInfo('AbstractSTC')" class="paperbutton" title="abstract">Signed tropical convexity</div> with L&aacute;szl&oacute; A. V&eacute;gh (<a href="https://doi.org/10.4230/LIPIcs.ITCS.2020.24">publication</a>)(<a href="https://arxiv.org/abs/1906.06686">arxiv</a>)(<a href="material/loho-slides-berlin-signed-hull.pdf">slides</a>) <br> <i>11th Innovations in Theoretical Computer Science Conference (ITCS 2020), LIPIcs, Volume 151 (2020), pp. 24:1-24:35</i>
+	    <div id="AbstractSTC" style="display:none"> <br><b>Abstract</b> We establish a new notion of tropical convexity for signed tropical numbers. We provide several equivalent descriptions involving balance relations and intersections of open halfspaces as well as the image of a union of polytopes over Puiseux series and hyperoperations. Along the way, we deduce a new Farkas lemma and Fourier-Motzkin elimination without the non-negativity restriction on the variables. This leads to a Minkowski-Weyl theorem for polytopes over the signed tropical numbers.  </div> <br> </li>
+
+	  <li><div onclick="showInfo('AbstractMTCMO')" class="paperbutton" title="abstract">Monomial tropical cones for multicriteria optimization </div>  with Michael Joswig (<a href="https://doi.org/10.1137/17M1153066">publication</a>)(<a href="https://arxiv.org/abs/1707.09305">arxiv</a>)(<a href="material/slides-loho-multicriteria-leiden.pdf">slides</a>)
+	    <br><i>SIAM J. Discrete Math., 34(2) (2020), 1172-1191.</i>
+		    <div id="AbstractMTCMO" style="display:none"> <br><b>Abstract</b>
+		      We present an algorithm to compute all n nondominated points of a multicriteria discrete optimization problem with d objectives using at most O(n^(\lfloor d/2 \rfloor)) scalarizations. The method is similar to algorithms by Przybylski, Gandibleux, and Ehrgott and by Klamroth, Lacour, and Vanderpooten with the same complexity. As a difference, our method employs a tropical convex hull computation, and it exploits a particular kind of duality which is special for the tropical cones arising. This duality can be seen as a generalization of the Alexander duality of monomial ideals.
+		    </div> <br> 
+</li>
+
+	  
+	  <li><div onclick="showInfo('AbstractLPCH')" class="paperbutton" title="abstract">Linear Programs and Convex Hulls Over Fields of Puiseux Fractions</div> with Michael Joswig, Benjamin Lorenz, Benjamin Schr&ouml;ter (<a href="https://link.springer.com/chapter/10.1007/978-3-319-32859-1_37">publication</a>)
+	    <br><i>Mathematical Aspects of Computer and Information Sciences: 6th International Conference (MACIS 2015), Revised Selected Papers, LNCS Volume 9582 (2016), pp 429-445</i>
+	    <div id="AbstractLPCH" style="display:none"> <br><b>Abstract</b> We describe the implementation of a subfield of the field of formal Puiseux series in polymake. This is employed for solving linear programs and computing convex hulls depending on a real parameter. Moreover, this approach is also useful for computations in tropical geometry.
+	    </div><br>
+	  </li>
+	  
+	  <li><div onclick="showInfo('AbstractWDTC')" class="paperbutton" title="abstract"> Weighted digraphs and tropical cones</div> with Michael Joswig
+(<a href="https://www.sciencedirect.com/science/article/pii/S0024379516001397">publication</a>)
+	    <br><i>Linear Algebra Appl. 501 (2016), 304-343.</i>
+	    <div id="AbstractWDTC" style="display:none"> <br><b>Abstract</b>
+	      This paper is about the combinatorics of finite point configurations in the tropical projective space or, dually, of arrangements of finitely many tropical hyperplanes. Moreover, arrangements of finitely many tropical halfspaces can be considered via coarsenings of the resulting polyhedral decompositions of R^d. This leads to natural cell decompositions of the tropical projective space TP_min^(d-1). Our method is to employ a known class of ordinary convex polyhedra naturally associated with weighted digraphs. This way we can relate to and use results from combinatorics and optimization. One outcome is the solution of a conjecture of Develin and Yu (2007).
+	    </div><br>
+	  </li>
+	  <li><div onclick="showInfo('AbstractMTN')" class="paperbutton" title="abstract">MatchTheNet - An Educational Game on 3-Dimensional Polytopes</div> with Michael Joswig, Benjamin Lorenz, Rico Raber (<a href="http://drops.dagstuhl.de/opus/volltexte/2017/7243/pdf/LIPIcs-SoCG-2017-66.pdf">publication</a>)(<a href="https://www.matchthenet.de/">game homepage</a>)
+	    <br><i>33rd International Symposium on Computational Geometry (SoCG 2017), LIPIcs, Volume 77 (2017), pp 66:1--66:5</i>
+	    <div id="AbstractMTN" style="display:none"> <br><b>Abstract</b> We present an interactive game which challenges a single player to match 3-dimensional polytopes to their planar nets. It is open source, and it runs in standard web browsers. </div> <br>
+	  </li>
+	</ul>
+
+<h3>Preprints</h3>
+<ul>
+          <li><div onclick="showInfo('AbstractPOM')" class="paperbutton" title="abstract">Patchworking Oriented Matroids</div> with Marcel Celaya, Chi Ho Yuen (<a href="https://arxiv.org/abs/2010.12018">arxiv</a>) (<a href="https://bluejeans.com/playback/s/O0PcmKbrLabgfGPUHk9MluwNXzrj6UXwJ9McYVBYn5z9SgBdv4v3exPQSrpPK1kW">video</a>)
+	    <div id="AbstractPOM" style="display:none"> <br><b>Abstract</b>
+	      In a previous work, we gave a construction of (not necessarily realizable) oriented matroids from a triangulation of a product of two simplices. In this follow-up paper, we use a variant of Viro's patchworking to derive a topological representation of the oriented matroid directly from the polyhedral structure of the triangulation, hence finding a combinatorial manifestation of patchworking besides tropical algebraic geometry. We achieve this by rephrasing the patchworking procedure as a controlled cell merging process, guided by the structure of tropical oriented matroids. A key insight is a new promising technique to show that the final cell complex is regular.
+	    </div><br>
+	  </li>
+          <li><div onclick="showInfo('AbstractOMTPS')" class="paperbutton" title="abstract">Oriented Matroids from Triangulations of Products of Simplices</div> with Marcel Celaya, Chi Ho Yuen (<a href="https://arxiv.org/abs/2005.01787">arxiv</a>)
+	    <div id="AbstractOMTPS" style="display:none"> <br><b>Abstract</b>
+	      We introduce a construction of oriented matroids from a triangulation of a product of two simplices. For this, we use the structure of such a triangulation in terms of polyhedral matching fields. The oriented matroid is composed of compatible chirotopes on the cells in a matroid subdivision of the hypersimplex, which might be of independent interest. In particular, we generalize this using the language of matroids over hyperfields, which gives a new approach to construct matroids over hyperfields. A recurring theme in our work is that various tropical constructions can be extended beyond tropicalization with new formulations and proof methods.
+	    </div><br>
+	  </li>
+	  <li><div onclick="showInfo('AbstractTCwM')" class="paperbutton" title="abstract">Tropical Carath&eacute;odory with Matroids</div> with Raman Sanyal (<a href="https://arxiv.org/abs/1912.11262">arxiv</a>)
+	    <div id="AbstractTCwM" style="display:none"> <br><b>Abstract</b>
+	      B&aacute;r&aacute;ny's colorful generalization of Carath&eacute;odory's Theorem combines geometrical and combinatorial constraints. Kalai-Meshulam (2005) and Holmsen (2016) generalized B&aacute;r&aacute;ny's theorem by replacing color classes with matroid constraints. In this note, we obtain corresponding results in tropical convexity, generalizing the tropical colorful Carath&eacute;odory Theorem of Gaubert-Meunier (2010). Our proof is inspired by geometric arguments and is reminiscent of matroid intersection. In particular, we show that the topological approach fails in this setting. We also discuss tropical colorful linear programming and show that it is NP-complete. We end with thoughts and questions on generalizations to polymatroids, anti-matroids as well as examples and matroid simplicial depth.
+	    </div><br>
+	  </li>
+	  <li><div onclick="showInfo('AbstractFPTPMI')" class="paperbutton" title="abstract"> Face posets of tropical polyhedra and monomial ideals </div> with Ben Smith (<a href="https://arxiv.org/abs/1909.01236">arxiv</a>)
+	    <div id="AbstractFPTPMI" style="display:none"> <br><b>Abstract</b>
+	      We exhibit several posets arising from commutative algebra, order theory, tropical convexity as potential face posets of tropical polyhedra, and we clarify their inclusion relations. We focus on monomial tropical polyhedra, and deduce how their geometry reflects properties of monomial ideals. Their vertex-facet lattice is homotopy equivalent to a sphere and encodes the Betti numbers of an associated monomial ideal.
+	    </div><br>
+	  </li>
+	  <!-- <li><a href="https://arxiv.org/abs/1906.06686">Signed tropical convexity -->
+	  <!--   </a> with L&aacute;szl&oacute; A. V&eacute;gh</li> -->
+	</ul>
+
+		<h3> Thesis </h3>
+	  <div onclick="showInfo('AbstractThesis')" class="paperbutton" title="abstract"> Doctoral Thesis &#8220;Combinatorics of Tropical Linear Programming&#8221;</div> (<a href="https://depositonce.tu-berlin.de/handle/11303/7158">publication</a>)(<a href="material/slides-defense.pdf">slides</a>)
+<div id="AbstractThesis" style="display:none"> <br><b>Abstract</b>
+	    The main topic of this work is the study of systems of inequalities where only the operations 'min' and '+' are used and which we call tropical linear inequality systems. An important algorithmic problem is to determine a point which fulfills all the inequalities. This problem, referred as the tropical feasibility problem, occurs in connection with scheduling as well as mean payoff games. It is analogous with the classical feasibility problem for linear inequality systems.
+
+We study these systems by means of sets of bipartite graphs. Methods from combinatorial optimization yield a characterization of these bipartite graphs, referred as covector graphs, in terms of minimal matchings.
+
+We start with a thorough investigation of polyhedra, which are naturally associated to shortest paths in weighted directed graphs.
+
+It leads to new covector decompositions of the tropical projective space. We reveal the connection with order polytopes and the boundary of the tropical projective space. Furthermore, we resolve a conjecture of Develin and Yu (2007).
+
+A second approach to examine tropical linear inequality systems arises by representing them as images of linear inequality systems over Puiseux series under a valuation map. We introduce the subfield of Puiseux fractions which is suitable for computations on a computer in contrast to Puiseux series, and we relate linear inequality systems over Puiseux fractions with linear inequality systems over the real numbers.
+
+Combining these ideas from classical halfspace arrangements with the covector decompositions leads to an abstraction in terms of signed tropical matroids which are an analogue of classical oriented matroids. This allows us to study tropical linear inequality systems with tools for polyhedral subdivisions. While tropical linear inequality systems correspond to regular subdivisions of subpolytopes of the product of two simplices, our arguments readily apply to not necessarily regular subdivisions as well. We design an algorithm to determine the feasibility of a tropical linear inequality system which also works for the generalized structure derived from not necessarily regular subdivisions.
+
+For regular subdivisions, the complexity is bounded by the entries of a minimal integer vector in a cone of the secondary fan of the product of two simplices.
+	  </div><br>
+
+	<h3> Posters </h3>
+	<ul>
+	  <li><a href="material/posterIPCO2016.pdf">Poster</a> for 7ECM (July 18 &#8211; 22, 2016)</li>
+	  <li><a href="material/posterEWDGT.pdf">Poster</a> for Einstein Workshop Discrete Geometry and Topology (March 13-16, 2018)</li>
+	</ul>
+      </div>
+    </div>
+
+    <div class="container" id="teaching">
+      <div class="textbox color_3">
+	<h2>Current Teaching</h2>
+	<ul>
+	  <li><a href = "https://moodle.uni-kassel.de/moodle/course/view.php?id=8515">Lineare Algebra (E-Technik, Informatik, W-Ing E-Technik, Mechatronik)</a></li>
+	  <li><a href = "https://moodle.uni-kassel.de/moodle/course/view.php?id=8520"> Fachwissenschaftliches Seminar III f&uuml;r die Lehr&auml;mter Grundschule </a></li>
+	  <li><a href = "https://moodle.uni-kassel.de/moodle/course/view.php?id=8966"> Matroide und ihre Anwendungen </a></li>
+	</ul>
+	<h2>Former Teaching</h2>
+	<ul>
+	  <li>Galois Theory (WiSe 2018)</li>
+	  <li>Anneaux et corps (Rings and fields, SoSe2018)</li>
+	  <li>Computerorientierte Mathematik I &amp; II (WiSe2013, WiSe2014, SoSe2015, WiSe2015, SoSe2016, SoSe2017, WiSe2017)</li>
+	  <li>Topologie (WiSe2016)</li>
+	  <li>Diskrete Geometrie I (SoSe2014)</li>
+	  <li>Funktionentheorie I (SoSe2013, Universit&auml;t W&uuml;rzburg)</li>
+	</ul>
+      </div>
+    </div>
+
+    <div class="container" id="events">
+      <div class="textbox color_3">
+	<h2>Events</h2>
+<!--	<h3>Upcoming</h3>
+	<ul>
+	</ul> -->
+	<h3>Some past events</h3>
+	<ul>
+	  <li>DMV Jahrestagung 2020, September 14-17, 2020; with our minisymposium on <a href="https://www.tu-chemnitz.de/mathematik/dmv2020/minisymp.php">Discrete Optimization</a>! </li>
+	  <li>The 21st Conference on Integer Programming and Combinatorial Optimization (IPCO21), June 8-10, 2020, London (via ZOOM)</li>
+	  <li>11th Innovations in Theoretical Computer Science (ITCS), January 12-14, 2020</li>
+	  <li>ACM-SIAM Symposium on Discrete Algorithms (SODA20), January 5-8, 2020 </li>
+	  <li>IGAFIT Workshop for Algorithms Postdocs in Europe (AlgPiE by IGAFIT 2019), October 14 - 18, 2019 </li>
+	  <li> Discrete geometry with a view on symplectic and tropical geometry, September 23 - 27, 2019, <a href="material/loho-slides-koeln.pdf">(slides)</a> </li>	    
+	  <li> SIAM Conference on Applied Algebraic Geometry, July 9 - 13, 2019; Co-organization of session &#8220;Computational aspects of tropical geometry&#8221; </li>
+	</ul>
+      </div>
+    </div>
+    
+    <div class="container" id="furtherinterests">
+      <div class="textbox color_3">
+	<h2>Further Interests</h2>
+	<p>Software development<br />
+	  <a href="http://polymake.org">polymake</a></p>
+	<p>Educational Game<br />
+	  <a href="https://matchthenet.de">MatchTheNet</a></p>
+	<p>Math Olympiad<br />
+	  I am involved in the organisation of the mathematical olympiad in Bavaria. For more information see:</p>
+	<ul>
+	  <li><a href="http://mo-by.de">Mathematik-Olympiade in Bayern </a></li>
+	  <li><a href="http://mathematik-olympiaden.de/">Mathematik-Olympiaden in Deutschland</a></li>
+	  <li><a href="https://mo2018.de/">Bundesrunde 2018 in W&uuml;rzburg</a></li>
+	</ul>
+      </div>
+    </div>
+
+    <div class="textbox">
+      <a href="#topcontent" class="topicbutton">Back to top</a>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
