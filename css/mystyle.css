@@ -15,7 +15,7 @@
       }
 
       .topicbutton {
-	  background-color: rgba(50,60,60,0.9);
+	  background-color: rgba(150,160,160,0.9);
 	  border: black;
 	  color: white;
 	  padding: 12px 35px;
@@ -61,7 +61,7 @@
       margin-right:auto;
       margin-top:1%;
       margin-bottom:1%;
-      border: 2px solid black;
+<!--      border: 6px solid rgba(180,0,0,1); -->
       }
 
       .imgbox{
@@ -70,7 +70,6 @@
       margin-right:auto;
       margin-top:1%;
       margin-bottom:1%;
-      border: 2px solid white;
       }
        
       body{
@@ -81,8 +80,16 @@
       text-decoration:none;
       }
 
+      a:link{
+      color: rgba(80,0,20,1)
+      }
+
+      a:hover{
+      
+      }
+      
       .color_3{
-      background-color:rgba(255,240,240,0.9)
+      background-color:rgba(255,240,245,0.9)
       }
 
       .color_4{
@@ -90,7 +97,7 @@
       }
 
       .overall_back{
-	  background: rgba(10,0,100,1);
+	  background: rgb(164,164,164,1);
          background-attachment: fixed;
          background-size: 99%;
       }
