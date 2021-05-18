@@ -54,6 +54,38 @@
       width:50%
       }
       
+      .row {
+	  display: flex;
+      }
+      
+      .column_left {
+	  flex: 50%;
+      }
+      .column_right {
+	  flex: 50%;
+	  align: right;
+      }
+      .large_device {}
+      .small_device {
+	  display: none;
+      }
+      @media (max-width: 1200px) {
+	  .large_device {
+	      display: none;
+	  }
+	  .small_device {
+	      display: inline;
+	  }
+	  .column_left{
+	      flex: 100%;
+	  }
+	  .column_right{
+	      flex: 0%;
+	      display: none;
+	  }
+      }
+
+      
       .textbox{
       width:94%;
       padding: 1%;
