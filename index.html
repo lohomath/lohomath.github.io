@@ -145,18 +145,46 @@ In this paper we develop a combinatorial abstraction of tropical linear programm
 
 <h3>Preprints</h3>
 <ul>
+  <li><div onclick="showInfo('AbstractIPMSimplex')" class="paperbutton" title="abstract">Interior point methods are not worse than Simplex</div> with Xavier Allamigeon, Daniel Dadush, Bento Natura, L&aacute;szl&oacute; A. V&eacute;gh (<a href="https://arxiv.org/abs/2206.08810">arxiv</a>)
+    <div id="AbstractIPMSimplex" style="display:none"> <br><b>Abstract</b>
+      Whereas interior point methods provide polynomial-time linear programming
+algorithms, the running time bounds depend on bit-complexity or condition
+measures that can be unbounded in the problem dimension. This is in contrast
+with the simplex method that always admits an exponential bound. We introduce a
+new polynomial-time path-following interior point method where the number of
+iterations also admits a combinatorial upper bound $O(2^{n} n^{1.5}\log n)$ for
+an $n$-variable linear program in standard form. This complements previous work
+by Allamigeon, Benchimol, Gaubert, and Joswig (SIAGA 2018) that exhibited a
+family of instances where any path-following method must take exponentially
+many iterations.
+<br>The number of iterations of our algorithm is at most $O(n^{1.5}\log n)$ times
+the number of segments of any piecewise linear curve in the wide neighborhood
+of the central path. In particular, it matches the number of iterations of any
+path following interior point method up to this polynomial factor. The overall
+exponential upper bound derives from studying the `max central path', a
+piecewise-linear curve with the number of pieces bounded by the total length of
+$2n$ shadow vertex simplex paths.
+<br>Our algorithm falls into the family of layered least squares interior point
+methods introduced by Vavasis and Ye (Math. Prog. 1996). In contrast to
+previous layered least squares methods that partition the kernel of the
+constraint matrix into coordinate subspaces, our method creates layers based on
+a general subspace providing more flexibility. Our result also implies the same
+bound on the number of iterations of the trust region interior point method by
+Lan, Monteiro, and Tsuchiya (SIOPT 2009).
+    </div><br>
+  </li>
   <li><div onclick="showInfo('AbstractTPDV')" class="paperbutton" title="abstract">Tropical Positivity and Determinantal Varieties</div> with Marie-Charlotte Brandenburg, Rainer Sinn (<a href="https://arxiv.org/abs/2205.14972">arxiv</a>)
     <div id="AbstractTPDV" style="display:none"> <br><b>Abstract</b>
       We initiate the study of positive-tropical generators as positive analogues of the concept of tropical bases. Applying this to the tropicalization of determinantal varieties, we develop criteria for characterizing their positive part. We focus on the study of low-rank matrices, in particular matrices of rank 2 and 3. Moreover, in the case square-matrices of corank 1, we fully classify the signed tropicalization of the determinantal variety, even beyond the positive part.
     </div><br>
   </li>
-  <li><div onclick="showInfo('AbstractSGP')" class="paperbutton" title="abstract">Generalized permutahedra and positive flag Dressians</div> with Michael Joswig, Dante Luber, Jorge Alberto Olarte (<a href="https://arxiv.org/abs/2111.13676">arxiv</a>)
+  <li><div onclick="showInfo('AbstractSGP')" class="paperbutton" title="abstract">Generalized permutahedra and positive flag Dressians</div> with Michael Joswig, Dante Luber, Jorge Alberto Olarte (<a href="https://arxiv.org/abs/2111.13676">arxiv</a>) accepted to <a href="http://math.iisc.ac.in/fpsac2022/">FPSAC 2022</a>
     <div id="AbstractSGP" style="display:none"> <br><b>Abstract</b>
       We study valuated matroids, their tropical incidence relations, flag matroids and total positivity.
       Our techniques employ the polyhedral geometry of the hypersimplices, the regular permutahedra and their subdivisions.
     </div><br>
   </li>
-  <li><div onclick="showInfo('AbstractBVIPG')" class="paperbutton" title="abstract">Beyond Value Iteration for Parity Games: Strategy Iteration with Universal Trees</div> with Zhuan Khye Koh (<a href="https://arxiv.org/abs/2108.13338">arxiv</a>)(<a href="https://www.youtube.com/watch?v=BfHhslXWDyA">video</a>)
+  <li><div onclick="showInfo('AbstractBVIPG')" class="paperbutton" title="abstract">Beyond Value Iteration for Parity Games: Strategy Iteration with Universal Trees</div> with Zhuan Khye Koh (<a href="https://arxiv.org/abs/2108.13338">arxiv</a>)(<a href="https://www.youtube.com/watch?v=BfHhslXWDyA">video</a>) accepted to <a href="https://ac.tuwien.ac.at/mfcs2022/">MFCS 2022</a>
     <div id="AbstractBVIPG" style="display:none"> <br><b>Abstract</b>
       Parity games have witnessed several new quasi-polynomial algorithms since the breakthrough result of Calude et al. (2017). The central combinatorial object underlying these approaches is a universal tree, as identified by Czerwiński et al. (2019). By providing a quasi-polynomial lower bound on the size of universal trees, they have highlighted a barrier that must be overcome by all existing approaches to attain polynomial runtime. This is due to the existence of worst case instances which force these algorithms to explore a large portion of the tree.
       
