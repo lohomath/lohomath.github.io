@@ -15,3 +15,7 @@ def randomTriangles(screenX, screenY, triangleSize, colorValues, numberTriangles
         lines.append(t)
 
     print(''.join(lines))
+
+
+color = [180,110,210,0.33]
+randomTriangles(1000,1000,130,color,180)
