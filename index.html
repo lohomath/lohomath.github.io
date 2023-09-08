@@ -44,10 +44,10 @@
 	    <h2>About Me</h2>
 	    
 	    Since June 2021, I am an assistant professor at <a href="http://utwente.nl/">University of Twente</a> in the <a href="https://www.utwente.nl/en/eemcs/dmmp/">Discrete Mathematics & Mathematical Programming</a> group.
-	    Since September 2023, I am working as guest professor at <a href="https://www.fu-berlin.de/">FU Berlin</a> as acting head of the <a href="https://www.mi.fu-berlin.de/en/math/groups/discgeom/index.html">Discrete Geometry and Topological Combinatorics</a> group substituting for <a href="https://www.mi.fu-berlin.de/math/groups/discgeom/ziegler/index.html">G&uuml;nter Ziegler</a>.
+	    Since September 2023, I am a guest professor at <a href="https://www.fu-berlin.de/">FU Berlin</a> as acting head of the <a href="https://www.mi.fu-berlin.de/en/math/groups/discgeom/index.html">Discrete Geometry and Topological Combinatorics</a> group substituting for <a href="https://www.mi.fu-berlin.de/math/groups/discgeom/ziegler/index.html">G&uuml;nter Ziegler</a>.
 
 	    <br>
-	    Contact: g.((surname))(at)utwente.nl
+	    CONTACT: g.((surname))(at)utwente.nl OR ((prename)).((surname))(at)math.fu-berlin.de
 	    <br>
 
 	    <ul>
@@ -110,6 +110,19 @@
 	<h2>Research</h2>
 	<h3>Publications</h3>
 	<ul>
+	  <li><div onclick="showInfo('AbstractTPDV')" class="paperbutton" title="abstract">Tropical Positivity and Determinantal Varieties</div> with Marie-Charlotte Brandenburg, Rainer Sinn (<a href="https://alco.centre-mersenne.org/articles/10.5802/alco.286/">journal</a>)(<a href="https://arxiv.org/abs/2205.14972">arxiv</a>)
+	    <br><i>Algebraic Combinatorics (2023)</i>
+    <div id="AbstractTPDV" style="display:none"> <br><b>Abstract</b>
+      We initiate the study of positive-tropical generators as positive analogues of the concept of tropical bases. Applying this to the tropicalization of determinantal varieties, we develop criteria for characterizing their positive part. We focus on the study of low-rank matrices, in particular matrices of rank 2 and 3. Moreover, in the case square-matrices of corank 1, we fully classify the signed tropicalization of the determinantal variety, even beyond the positive part.
+    </div><br>
+	  </li>
+	    <li>
+	      <div onclick="showInfo('AbstractLBDINNLP')" class="paperbutton" title="abstract">Lower Bounds on the Depth of Integral ReLU Neural Networks via Lattice Polytopes</div> with Christian Haase, Christoph Hertrich (<a href="https://arxiv.org/abs/2302.12553">arxiv</a>)(<a href="https://openreview.net/forum?id=2mvALOAWaxY">conference</a>)
+	    <br><i><a href="https://openreview.net/group?id=ICLR.cc/2023/Conference">ICLR 2023</a></i>  
+    <div id="AbstractLBDINNLP" style="display:none"> <br><b>Abstract</b>
+      We prove that the set of functions representable by ReLU neural networks with integer weights strictly increases with the network depth while allowing arbitrary width. More precisely, we show that \(\lceil\log_2(n)\rceil\) hidden layers are indeed necessary to compute the maximum of n numbers, matching known upper bounds. Our results are based on the known duality between neural networks and Newton polytopes via tropical geometry. The integrality assumption implies that these Newton polytopes are lattice polytopes. Then, our depth lower bounds follow from a parity argument on the normalized volume of faces of such polytopes.
+    </div><br>    
+  </li>
 	  <li><div onclick="showInfo('AbstractCorGapMat')" class="paperbutton" title="abstract">On the Correlation Gap of Matroids</div> with Edin Husić, Zhuan Khye Koh, László A. Végh (<a href="https://arxiv.org/abs/2209.09896">arxiv</a>)(<a href="https://link.springer.com/chapter/10.1007/978-3-031-32726-1_15">conference</a>)
 	    <br><i><a href="https://optimization.discovery.wisc.edu/ipco-2023-madison/">IPCO 2023</a></i>
     <div id="AbstractCorGapMat" style="display:none"> <br><b>Abstract</b>
@@ -245,20 +258,9 @@ In this paper we develop a combinatorial abstraction of tropical linear programm
 We present a class of worst-case examples for symmetric strategy improvement on which this symmetric version also takes exponentially many steps. Remarkably, our examples exhibit this behaviour for any choice of improvement rule, which is in contrast to classical strategy improvement where hard instances are usually hand-crafted for a specific improvement rule. We present a generalized version of symmetric strategy iteration depending less rigidly on the interplay of the strategies of both players. However, it turns out it has the same shortcomings.
     </div><br>    
   </li>
-  <li>
-    <div onclick="showInfo('AbstractLBDINNLP')" class="paperbutton" title="abstract">Lower Bounds on the Depth of Integral ReLU Neural Networks via Lattice Polytopes</div> with Christian Haase, Christoph Hertrich (<a href="https://arxiv.org/abs/2302.12553">arxiv</a>)
-    <div id="AbstractLBDINNLP" style="display:none"> <br><b>Abstract</b>
-      We prove that the set of functions representable by ReLU neural networks with integer weights strictly increases with the network depth while allowing arbitrary width. More precisely, we show that \(\lceil\log_2(n)\rceil\) hidden layers are indeed necessary to compute the maximum of n numbers, matching known upper bounds. Our results are based on the known duality between neural networks and Newton polytopes via tropical geometry. The integrality assumption implies that these Newton polytopes are lattice polytopes. Then, our depth lower bounds follow from a parity argument on the normalized volume of faces of such polytopes.
-    </div><br>    
-  </li>
   <li><div onclick="showInfo('AbstractSTCH')" class="paperbutton" title="abstract">Signed tropical halfspaces and convexity</div> with Mateusz Skomra (<a href="https://arxiv.org/abs/2206.13919">arxiv</a>)(<a href="https://www.youtube.com/watch?v=hBeKV8rukgg">video</a>)
     <div id="AbstractSTCH" style="display:none"> <br><b>Abstract</b>
       We extend the fundamentals for tropical convexity beyond the tropically positive orthant expanding the theory developed by Loho and Végh (ITCS 2020). We study two notions of convexity for signed tropical numbers called 'TO-convexity' (formerly 'signed tropical convexity') and the novel notion 'TC-convexity'. We derive several separation results for TO-convexity and TC-convexity. A key ingredient is a thorough understanding of TC-hemispaces - those TC-convex sets whose complement is also TC-convex. Furthermore, we use new insights in the interplay between convexity over Puiseux series and its signed valuation. Remarkably, TC-convexity can be seen as a natural convexity notion for representing oriented matroids as it is arises from a generalization of the composition operation of vectors in an oriented matroid.
-    </div><br>
-  </li>
-  <li><div onclick="showInfo('AbstractTPDV')" class="paperbutton" title="abstract">Tropical Positivity and Determinantal Varieties</div> with Marie-Charlotte Brandenburg, Rainer Sinn (<a href="https://arxiv.org/abs/2205.14972">arxiv</a>)
-    <div id="AbstractTPDV" style="display:none"> <br><b>Abstract</b>
-      We initiate the study of positive-tropical generators as positive analogues of the concept of tropical bases. Applying this to the tropicalization of determinantal varieties, we develop criteria for characterizing their positive part. We focus on the study of low-rank matrices, in particular matrices of rank 2 and 3. Moreover, in the case square-matrices of corank 1, we fully classify the signed tropicalization of the determinantal variety, even beyond the positive part.
     </div><br>
   </li>
   <li><div onclick="showInfo('AbstractOMTPS')" class="paperbutton" title="abstract">Oriented Matroids from Triangulations of Products of Simplices</div> with Marcel Celaya, Chi Ho Yuen (<a href="https://arxiv.org/abs/2005.01787">arxiv</a>)
