@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    <div class="News" id="news">
+<!--    <div class="News" id="news">
       <div class="textbox color_3">
 	<h2>News</h2>
 	<ul>
@@ -101,6 +101,7 @@
 	  </li>
       </div>
     </div>
+    -->
 
     
     <div class="container" id="research">
@@ -111,6 +112,12 @@
 	<h2>Research</h2>
 	<h3>Publications</h3>
 	<ul>
+	  <li><div onclick="showInfo('AbstractRTGNN')" class="paperbutton" title="abstract">The Real Tropical Geometry of Neural Networks</div> with Marie-Charlotte Brandenburg, Guido Mont&uacute;far (<a href="https://arxiv.org/abs/2403.11871">arxiv</a>)(<a href="https://openreview.net/forum?id=I7JWf8XA2w">publication</a>)
+	    <br><i>Transactions on Machine Learning Research (2024)</i>
+    <div id="AbstractRTGNN" style="display:none"> <br><b>Abstract</b>
+      We consider a binary classifier defined as the sign of a tropical rational function, that is, as the difference of two convex piecewise linear functions. The parameter space of ReLU neural networks is contained as a semialgebraic set inside the parameter space of tropical rational functions. We initiate the study of two different subdivisions of this parameter space: a subdivision into semialgebraic sets, on which the combinatorial type of the decision boundary is fixed, and a subdivision into a polyhedral fan, capturing the combinatorics of the partitions of the dataset. The sublevel sets of the 0/1-loss function arise as subfans of this classification fan, and we show that the level-sets are not necessarily connected. We describe the classification fan i) geometrically, as normal fan of the activation polytope, and ii) combinatorially through a list of properties of associated bipartite graphs, in analogy to covector axioms of oriented matroids and tropical oriented matroids. Our findings extend and refine the connection between neural networks and tropical geometry by observing structures established in real tropical geometry, such as positive tropicalizations of hypersurfaces and tropical semialgebraic sets.
+    </div><br>
+  </li>
 	  <li><div onclick="showInfo('AbstractOMTPS')" class="paperbutton" title="abstract">Oriented Matroids from Triangulations of Products of Simplices</div> with Marcel Celaya, Chi Ho Yuen (<a href="https://arxiv.org/abs/2005.01787">arxiv</a>)(<a href="https://doi.org/10.1007/s00029-024-00938-2">publication</a>)
 	    <br><i>Selecta Mathematica (2024)</i>
 	    <div id="AbstractOMTPS" style="display:none"> <br><b>Abstract</b>
@@ -145,7 +152,7 @@ We present a class of worst-case examples for symmetric strategy improvement on 
     </div><br>    
   </li>
 	  <li><div onclick="showInfo('AbstractCorGapMat')" class="paperbutton" title="abstract">On the Correlation Gap of Matroids</div> with Edin Husić, Zhuan Khye Koh, László A. Végh (<a href="https://doi.org/10.1007/s10107-024-02116-w">journal</a>)(<a href="https://arxiv.org/abs/2209.09896">arxiv</a>)(<a href="https://link.springer.com/chapter/10.1007/978-3-031-32726-1_15">conference</a>)
-	    <br><i><a href="https://optimization.discovery.wisc.edu/ipco-2023-madison/">IPCO 2023</a></i>
+	    <br><i><a href="https://optimization.discovery.wisc.edu/ipco-2023-madison/">IPCO 2023</a>, Mathematical Programming (2024)</i>
     <div id="AbstractCorGapMat" style="display:none"> <br><b>Abstract</b>
       A set function can be extended to the unit cube in various ways; the correlation gap measures the ratio between two natural extensions. This quantity has been identified as the performance guarantee in a range of approximation algorithms and mechanism design settings. It is known that the correlation gap of a monotone submodular function is 1−1/e, and this is tight even for simple matroid rank functions.
 We initiate a fine-grained study of correlation gaps of matroid rank functions. In particular, we present improved lower bounds on the correlation gap as parametrized by the rank and the girth of the matroid. We also show that the worst correlation gap of a weighted matroid rank function is achieved under uniform weights. Such improved lower bounds have direct applications for submodular maximization under matroid constraints, mechanism design, and contention resolution schemes. Previous work relied on implicit correlation gap bounds for problems such as list decoding and approval voting.
@@ -187,7 +194,7 @@ Lan, Monteiro, and Tsuchiya (SIOPT 2009).
     </div><br>
   </li>
 	  <li><div onclick="showInfo('AbstractSGP')" class="paperbutton" title="abstract">Generalized permutahedra and positive flag Dressians</div> with Michael Joswig, Dante Luber, Jorge Alberto Olarte (<a href="https://doi.org/10.1093/imrn/rnac349">journal</a>)(<a href="https://arxiv.org/abs/2111.13676">arxiv</a>)(<a href="https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2022/53.html">conference</a>)
-	    <br><i><a href="https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2022/">FPSAC 2022</a></i>
+	    <br><i><a href="https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2022/">FPSAC 2022</a>, International Mathematics Research Notices (2023)</i>
 	    <div id="AbstractSGP" style="display:none"> <br><b>Abstract</b>
 	      We study valuated matroids, their tropical incidence relations, flag matroids and total positivity.
 	      Our techniques employ the polyhedral geometry of the hypersimplices, the regular permutahedra and their subdivisions.
@@ -272,11 +279,6 @@ In this paper we develop a combinatorial abstraction of tropical linear programm
 
 <h3>Preprints</h3>
 <ul>
-  <li><div onclick="showInfo('AbstractRTGNN')" class="paperbutton" title="abstract">The Real Tropical Geometry of Neural Networks</div> with Marie-Charlotte Brandenburg, Guido Mont&uacute;far (<a href="https://arxiv.org/abs/2403.11871">arxiv</a>)
-    <div id="AbstractRTGNN" style="display:none"> <br><b>Abstract</b>
-      We consider a binary classifier defined as the sign of a tropical rational function, that is, as the difference of two convex piecewise linear functions. The parameter space of ReLU neural networks is contained as a semialgebraic set inside the parameter space of tropical rational functions. We initiate the study of two different subdivisions of this parameter space: a subdivision into semialgebraic sets, on which the combinatorial type of the decision boundary is fixed, and a subdivision into a polyhedral fan, capturing the combinatorics of the partitions of the dataset. The sublevel sets of the 0/1-loss function arise as subfans of this classification fan, and we show that the level-sets are not necessarily connected. We describe the classification fan i) geometrically, as normal fan of the activation polytope, and ii) combinatorially through a list of properties of associated bipartite graphs, in analogy to covector axioms of oriented matroids and tropical oriented matroids. Our findings extend and refine the connection between neural networks and tropical geometry by observing structures established in real tropical geometry, such as positive tropicalizations of hypersurfaces and tropical semialgebraic sets.
-    </div><br>
-  </li>
   <li><div onclick="showInfo('AbstractQMSQMF')" class="paperbutton" title="abstract">Quotients of M-convex sets and M-convex functions</div> with Marie-Charlotte Brandenburg, Ben Smith (<a href="https://arxiv.org/abs/2403.07751">arxiv</a>)
     <div id="AbstractQMSQMF" style="display:none"> <br><b>Abstract</b>
       We unify the study of quotients of matroids, polymatroids, valuated matroids and strong maps of submodular functions in the framework of Murota's discrete convex analysis. As a main result, we compile a list of ten equivalent characterizations of quotients for M-convex sets, generalizing existing formulations for (poly)matroids and submodular functions. We also initiate the study of quotients of M-convex functions, constructing a hierarchy of four separate characterizations. Our investigations yield new insights into the fundamental operation of induction, as well as the structure of linking sets and linking functions, which are generalizations of linking systems and bimatroids.
@@ -391,6 +393,8 @@ For regular subdivisions, the complexity is bounded by the entries of a minimal 
 	</ul>
 	<h3>Upcoming</h3>
 	<ul>
+	  <li> <a href="https://www.mfo.de/occasion/2510a/www_view"> Alcoved Polytopes in Physics and Optimization (Oberwolfach) </a> </li>
+	  <li> <a href="https://www.kth.se/math/act/comb/polytopes-and-friends-1.1357143"> Polytopes and friends </a> </li>
 	</ul> 
 	<h3>Some past events</h3>
 	<ul>
