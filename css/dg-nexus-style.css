@@ -1,0 +1,143 @@
+
+      .content {
+      /* background-color: rgba(50,50,50,1); */
+      width:96%;
+      margin-left:auto;
+      margin-right:auto;
+      max-width: 1600px;
+      }
+      
+      .container {
+      display:-webkit-flex;
+      display. -ms-flex;
+      display: flex;
+      margin-bottom: 2%;
+      }
+
+      .topicbutton {
+	  background-color: rgba(150,150,150,0.9);
+	  border: black;
+	  color: white;
+	  padding: 12px 35px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  margin: 5px;
+	  font-size:16px;
+      }
+      
+      .paperbutton {
+	  border: none;
+	  color: rgba(0,0,100,0.9);
+	  margin: 0px;
+	  display: inline; 
+      }
+
+      .paperbutton:hover {
+	  background-color: rgba(90,100,100,0.3);
+      }
+      
+      .aligncontainer {
+	  display:-webkit-flex;
+	  display. -ms-flex;
+	  display: flex;  
+      }
+
+      .column {
+      display:-webkit-flex;
+      display. -ms-flex;
+      display: flex;
+      }
+
+      .column-half {
+      order: 1;
+      width:50%
+      }
+      
+      .row {
+	  display: flex;
+      }
+      
+      .column_left {
+	  flex: 66%;
+      }
+      .column_right {
+	  flex: 33%;
+	  align: right;
+      }
+      .large_device {}
+      .small_device {
+	  display: none;
+      }
+      @media (max-width: 1200px) {
+	  .large_device {
+	      display: none;
+	  }
+	  .small_device {
+	      display: inline;
+	  }
+	  .column_left{
+	      flex: 100%;
+	  }
+	  .column_right{
+	      flex: 0%;
+	      display: none;
+	  }
+      }
+
+      
+      .textbox{
+      width:94%;
+      padding: 1%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:1%;
+      margin-bottom:1%;
+      /* border: 6px solid rgba(80,80,80,1);  */
+      }
+
+      .imgbox{
+      padding: 1%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:1%;
+      margin-bottom:1%;
+      }
+       
+      body{
+      font-family:"Helvetica", "Verdana","Arial", sans-serif;
+      }
+
+      a{
+      text-decoration:none;
+      }
+
+      a:link{
+      color: rgba(0,20,20,1)
+      }
+
+      a:hover{
+      
+      }
+      
+      .color_3{
+	  background-color:rgba(190,220,16,0.93) 
+      }
+
+      .color_4{
+	  background-color:rgba(30,185,190,0.95)
+      }
+
+/*       .overall_back{ */
+/* <!--	  background: rgb(4,50,32,1); --> */
+/*          background-attachment: fixed; */
+/*          background-size: 99%; */
+      /*       } */
+
+      body {
+	  font-family: optima,sans-serif;
+	  font-size: 19px;
+	  background-attachment: fixed;
+	  background-size: cover;
+	  background-color: rgba(30,185,190,0.95);
+    }
