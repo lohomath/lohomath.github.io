@@ -121,11 +121,11 @@
       }
       
       .color_3{
-	  background-color:rgba(190,220,16,0.93) 
+	  background-color:rgba(210,255,5,0.63) 
       }
 
       .color_4{
-	  background-color:rgba(30,185,190,0.95)
+	  background-color: rgba(30,185,190,0.95);
       }
 
 /*       .overall_back{ */
@@ -139,5 +139,5 @@
 	  font-size: 19px;
 	  background-attachment: fixed;
 	  background-size: cover;
-	  background-color: rgba(30,185,190,0.95);
+	  background-color:rgba(235,235,235,0.95);
     }
