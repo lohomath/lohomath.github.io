@@ -32,8 +32,8 @@
 	<a href="#speakers" class="topicbutton">Invited speakers</a>
 	<a href="#program" class="topicbutton">Program</a>
 	<a href="#registration" class="topicbutton">Registration</a>
+	<a href="#abstracts" class="topicbutton">Abstracts</a>
 	<a href="#contact" class="topicbutton">Contact</a>
-<!--	<a href="#speakers" class="topicbutton">Speakers and Abstracts</a> -->
 		
       </div>
     </div>
@@ -114,16 +114,28 @@
     </div>
 	
 
-    <!--
-    <div class="container" id="program">
+    <div class="container" id="abstracts">
       <div class="textbox color_3">
 	<h2>Abstracts</h2>
-
-	
+	<ul>
+	  <li>
+	    <h4>Eleon Bach: Optimal smoothed analysis of the simplex method</h4>
+	    Smoothed analysis is a method for analysing the performance of algorithms, used especially for those algorithms whose running time in practice is significantly better than what can be proven through worst-case analysis and which have significant structure such that average case analysis remains inconclusive. Given an arbitrary linear program with $d$ variables and $n$ inequality constraints, we prove that there exists a simplex method whose smoothed complexity is upper bounded by $O(\sigma^{-1/2} d^{11/4} \log(n)^{7/4})$ pivot steps. Furthermore, we prove a matching high-probability lower bound of $\Omega( \sigma^{-1/2} d^{1/2}\ln(4/\sigma)^{-1/4})$ on the combinatorial diameter of the feasible polyhedron after smoothing, on instances using $n = \lfloor (4/\sigma)^d \rfloor$ inequality constraints. This lower bound indicates that our algorithm has optimal noise dependence among all simplex methods, up to polylogarithmic factors.
+<br>
+In this talk we will discuss the algorithmic improvements that we used for the above new upper bound. This is joint work with Sophie Huiberts. 
+	  </li>
+	  <li>
+	    <h4>Sophie Huiberts: Lessons from Paula Harris</h4>
+	    Paula Harris was a mathematician at British Petroleum. Together with 3 others, she was responsible for LP solving in the company. In light of that task, she developed a number of algorithmic techniques and insights into the functioning of the simplex method. This talk will be about the person, as well as about some of her insights that have made their way into all serious LP software.
+	  </li>
+	  <li>
+	    <h4>Nils Mosis: An unconditional lower bound for the active-set method on the hypercube</h4>
+	    The existence of a polynomial-time pivot rule for the simplex method is a fundamental open question in optimization. While many super-polynomial lower bounds exist for individual or very restricted classes of pivot rules, there currently is little hope for an unconditional lower bound that addresses all pivot rules. We approach this question by considering the active-set method as a natural generalization of the simplex method to non-linear objectives. This generalization allows us to prove the first unconditional lower bound for all pivot rules. More precisely, we construct a multivariate polynomial of degree linear in the number of dimensions such that the active-set method started in the origin visits all vertices of the hypercube. We hope that our framework serves as a starting point for a new angle of approach to understanding the complexity of the simplex method.
+	  </li>
+	</ul>
       </div>
     </div>
 
-    -->
     
     <div class="container" id="contact">
       <div class="textbox color_3">
