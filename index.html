@@ -61,7 +61,7 @@
 	    <h3 id="CV"> Short CV </h3>
 	    <ul>
 	      <li> Guest professor at <a href="https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/02loho.html">FU Berlin</a> since September 2023 </li> 
-	      <li> Assistant professor <a href="https://people.utwente.nl/g.loho">University of Twente</a> since June 2021 (currently on leave)</li>
+	      <li> Assistant professor <a href="https://people.utwente.nl/g.loho">University of Twente</a> since June 2021 (on leave)</li>
 	      <li> Long-term participant <a href="https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/discrete-optimization/description/">HIM Trimester Program in Bonn</a>, Sept 2021 - Dec 2021</li>
 	      <li> Substitute Professor at <a href="https://www.uni-kassel.de/fb10/institute/mathematik/arbeitsgruppen/algorithmische-algebra-und-diskrete-mathematik/vertr-prof-dr-georg-loho.html">Universit&auml;t Kassel</a>, Oct 2020 - Mar 2021 </li>
 	      <li> Postdoc at <a href="http://www.lse.ac.uk/maths/home.aspx" target="_blank">Department of Mathematics</a>, <a href="http://www.lse.ac.uk" target="_blank">London School of Economics</a>, Funded by the ERC Starting Grant of <a href="http://personal.lse.ac.uk/veghl/">L&aacute;szl&oacute; A. V&eacute;gh</a> (no. <a href="https://cordis.europa.eu/project/id/757481">757481</a>), Jan 2019 - Sept 2020 </li>
@@ -121,8 +121,24 @@
 	</ul>
 	<h3>Publications</h3>
 	<ul>
+	  <li><div class="paperbutton" title="abstract">Lower bounds for ranking-based pivot rules</div> with Yann Disser, Matthew Maat, Nils Mosis
+	    <br><i>STACS 2026 (accepted)</i>
+	  </li>
+	  <li><div onclick="showInfo('AbstractQMSQMF')" class="paperbutton" title="abstract">Quotients of M-convex sets and M-convex functions</div> with Marie-Charlotte Brandenburg, Ben Smith (<a href="https://arxiv.org/abs/2403.07751">arxiv</a>)
+	    <br><i><a href="https://escholarship.org/uc/combinatorial_theory/acceptedPapers">Combinatorial theory</a></i>
+	    <div id="AbstractQMSQMF" style="display:none"> <br><b>Abstract</b>
+	      We unify the study of quotients of matroids, polymatroids, valuated matroids and strong maps of submodular functions in the framework of Murota's discrete convex analysis. As a main result, we compile a list of ten equivalent characterizations of quotients for M-convex sets, generalizing existing formulations for (poly)matroids and submodular functions. We also initiate the study of quotients of M-convex functions, constructing a hierarchy of four separate characterizations. Our investigations yield new insights into the fundamental operation of induction, as well as the structure of linking sets and linking functions, which are generalizations of linking systems and bimatroids.
+	    </div><br>
+	  </li>	  
+	  <li><div onclick="showInfo('AbstractDBNNBA')" class="paperbutton" title="abstract">Depth-Bounds for Neural Networks via the Braid Arrangement</div> with Moritz Grillo, Christoph Hertrich (<a href="https://arxiv.org/abs/2502.09324">arxiv</a>)
+	    <br><i><a href="https://neurips.cc/virtual/2025/poster/117518">NeurIPS 2025</a></i>
+	    <div id="AbstractDBNNBA" style="display:none"> <br><b>Abstract</b>
+	      We contribute towards resolving the open question of how many hidden layers are required in ReLU networks for exactly representing all continuous and piecewise linear functions on Rd. While the question has been resolved in special cases, the best known lower bound in general is still 2. We focus on neural networks that are compatible with certain polyhedral complexes, more precisely with the braid fan. For such neural networks, we prove a non-constant lower bound of Omega(loglogd) hidden layers required to exactly represent the maximum of d numbers. Additionally, under our assumption, we provide a combinatorial proof that 3 hidden layers are necessary to compute the maximum of 5 numbers; this had only been verified with an excessive computation so far. Finally, we show that a natural generalization of the best known upper bound to maxout networks is not tight, by demonstrating that a rank-3 maxout layer followed by a rank-2 maxout layer is sufficient to represent the maximum of 7 numbers.
+	    </div><br>
+	  </li>
+
 	  <li><div onclick="showInfo('AbstractRSGSP')" class="paperbutton" title="abstract">Reducing Stochastic Games to Semidefinite Programming</div> with Manuel Bodirsky, Mateusz Skomra (<a href="https://arxiv.org/abs/2411.09646">arxiv</a>)(<a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.145">conference</a>)
-	    <br><i>ICALP (2025)</i>
+	    <br><i>ICALP 2025</i>
     <div id="AbstractRSGSP" style="display:none"> <br><b>Abstract</b>
       We present a polynomial-time reduction from max-average constraints to the feasibility problem for semidefinite programs. This shows that Condon's simple stochastic games, stochastic mean payoff games, and in particular mean payoff games and parity games can all be reduced to semidefinite programming.
     </div><br>
@@ -141,7 +157,7 @@
 	  </li>
 	  <li>
 	    <div onclick="showInfo('AbstractWCSSI')" class="paperbutton" title="abstract">The Worst-Case Complexity of Symmetric Strategy Improvement</div> with Tom van Dijk, Matthew Maat (<a href="https://arxiv.org/abs/2309.02223">arxiv</a>)(<a href="https://csl2024.github.io/Home/#accepted%20papers">conference</a>)
-	    <br><i>CSL (2024)</i>
+	    <br><i>CSL 2024</i>
     <div id="AbstractWCSSI" style="display:none"> <br><b>Abstract</b>
      Symmetric strategy improvement is an algorithm introduced by Schewe et al. (ICALP 2015) that can be used to solve two-player games on directed graphs such as parity games and mean payoff games. In contrast to the usual well-known strategy improvement algorithm, it iterates over strategies of both players simultaneously. The symmetric version solves the known worst-case examples for strategy improvement quickly, however its worst-case complexity remained open.
 We present a class of worst-case examples for symmetric strategy improvement on which this symmetric version also takes exponentially many steps. Remarkably, our examples exhibit this behaviour for any choice of improvement rule, which is in contrast to classical strategy improvement where hard instances are usually hand-crafted for a specific improvement rule. We present a generalized version of symmetric strategy iteration depending less rigidly on the interplay of the strategies of both players. However, it turns out it has the same shortcomings.
@@ -322,21 +338,9 @@ In this paper we develop a combinatorial abstraction of tropical linear programm
 Our contribution is threefold: we analyze the structure and derive hardness results for the realization of cycle patterns by weight functions. Then we use them to show hardness of solving games given the limited information of a cycle pattern. Finally, we identify a novel geometric hardness measure for solving mean payoff games (MPG) using the framework of linear decision trees, and use cycle patterns to derive lower bounds with respect to this measure, for large classes of algorithms for MPGs.
     </div><br>
   </li>
-  <li><div onclick="showInfo('AbstractDBNNBA')" class="paperbutton" title="abstract">Depth-Bounds for Neural Networks via the Braid Arrangement</div> with Moritz Grillo, Christoph Hertrich (<a href="https://arxiv.org/abs/2502.09324">arxiv</a>)
-    <br><i><a href="https://neurips.cc/virtual/2025/poster/117518">NeurIPS 2025</a></i>
-    <div id="AbstractDBNNBA" style="display:none"> <br><b>Abstract</b>
-      We contribute towards resolving the open question of how many hidden layers are required in ReLU networks for exactly representing all continuous and piecewise linear functions on Rd. While the question has been resolved in special cases, the best known lower bound in general is still 2. We focus on neural networks that are compatible with certain polyhedral complexes, more precisely with the braid fan. For such neural networks, we prove a non-constant lower bound of Omega(loglogd) hidden layers required to exactly represent the maximum of d numbers. Additionally, under our assumption, we provide a combinatorial proof that 3 hidden layers are necessary to compute the maximum of 5 numbers; this had only been verified with an excessive computation so far. Finally, we show that a natural generalization of the best known upper bound to maxout networks is not tight, by demonstrating that a rank-3 maxout layer followed by a rank-2 maxout layer is sufficient to represent the maximum of 7 numbers.
-    </div><br>
-  </li>
   <li><div onclick="showInfo('AbstractNNVXC')" class="paperbutton" title="abstract">Neural Networks and (Virtual) Extended Formulations</div> with Christoph Hertrich (<a href="https://arxiv.org/abs/2411.03006">arxiv</a>)
     <div id="AbstractNNVXC" style="display:none"> <br><b>Abstract</b>
       Neural networks with piecewise linear activation functions, such as rectified linear units (ReLU) or maxout, are among the most fundamental models in modern machine learning. We make a step towards proving lower bounds on the size of such neural networks by linking their representative capabilities to the notion of the extension complexity xc(P) of a polytope P, a well-studied quantity in combinatorial optimization and polyhedral geometry. To this end, we propose the notion of virtual extension complexity vxc(P)=min{xc(Q)+xc(R)∣P+Q=R}. This generalizes xc(P) and describes the number of inequalities needed to represent the linear optimization problem over P as a difference of two linear programs. We prove that vxc(P) is a lower bound on the size of a neural network that optimizes over P. While it remains open to derive strong lower bounds on virtual extension complexity, we show that powerful results on the ordinary extension complexity can be converted into lower bounds for monotone neural networks, that is, neural networks with only nonnegative weights. Furthermore, we show that one can efficiently optimize over a polytope P using a small virtual extended formulation. We therefore believe that virtual extension complexity deserves to be studied independently from neural networks, just like the ordinary extension complexity. As a first step in this direction, we derive an example showing that extension complexity can go down under Minkowski sum.
-    </div><br>
-  </li>
-  <li><div onclick="showInfo('AbstractQMSQMF')" class="paperbutton" title="abstract">Quotients of M-convex sets and M-convex functions</div> with Marie-Charlotte Brandenburg, Ben Smith (<a href="https://arxiv.org/abs/2403.07751">arxiv</a>)
-    <br><i><a href="https://escholarship.org/uc/combinatorial_theory/acceptedPapers">Combinatorial theory</a></i>
-    <div id="AbstractQMSQMF" style="display:none"> <br><b>Abstract</b>
-      We unify the study of quotients of matroids, polymatroids, valuated matroids and strong maps of submodular functions in the framework of Murota's discrete convex analysis. As a main result, we compile a list of ten equivalent characterizations of quotients for M-convex sets, generalizing existing formulations for (poly)matroids and submodular functions. We also initiate the study of quotients of M-convex functions, constructing a hierarchy of four separate characterizations. Our investigations yield new insights into the fundamental operation of induction, as well as the structure of linking sets and linking functions, which are generalizations of linking systems and bimatroids.
     </div><br>
   </li>
   <li><div onclick="showInfo('AbstractSTCH')" class="paperbutton" title="abstract">Signed tropical halfspaces and convexity</div> with Mateusz Skomra (<a href="https://arxiv.org/abs/2206.13919">arxiv</a>)(<a href="https://www.youtube.com/watch?v=hBeKV8rukgg">video</a>)
@@ -458,16 +462,18 @@ For regular subdivisions, the complexity is bounded by the entries of a minimal 
 	<ul>
 	  <li> Girls' Day 2024 </li>
 	  <li> Festvortrag bei der Landesrunde der 63. MO in Bayern <a href="material/Festvortrag-Landesrunde-Bayern-MO-2024.pdf">(slides)</a> </li>
-	  <li> Pi-Day 2024 am K&auml;the-Kollwitz-Gymnasium <a href="material/PiDay2024KKG.pdf">(slides)</a> </li>	    
+	  <li> Pi-Day 2024 am K&auml;the-Kollwitz-Gymnasium <a href="material/PiDay2024KKG.pdf">(slides)</a> </li>
+
 	</ul>
 	<h3>Upcoming</h3>
 	<ul>
+	  <li> <a href="https://www.mathematics.uni-bonn.de/him/programs/follow-up-workshops/2026_04_20"> Follow-Up Workshop: "Discrete Optimization" (Hausdorff Research Institute for Mathematics in Bonn) </a> </li>
 	  <li> <a href="https://neuralpolytopes.gitlab.io/workshop2026/"> Workshop on Polyhedral Geometry for Neural Networks (University of Technology Nuremberg)</a> </li>
 	  <li> <a href="https://mathconf.eu/adtg-2026/index.html"> Developments in Algorithmic, Discrete and Tropical Geometry (FU Berlin / ZIB)</a> </li>
-	  <li> <a href="https://www.crm.cat/conferenceirpmdm2025/"> Closing conference of the Intense Research Program Combinatorial Geometries and Geometric Combinatorics (CRM, Barcelona) </a> </li>
 	</ul> 
 	<h3>Some past events</h3>
 	<ul>
+	  <li> <a href="https://www.crm.cat/conferenceirpmdm2025/"> Closing conference of the Intense Research Program Combinatorial Geometries and Geometric Combinatorics (CRM, Barcelona) </a> </li>
 	  <li> <a href="https://www.combinatorial-synergies.de/activities/2025-09_AnnualConference/">Second Annual Conference of the Priority Program Combinatorial Synergies (SPP2458) </a> </li>
 	  <li> <a href="https://lohomath.github.io/simplex-2025.html"> The Simplex Method: Theory, Complexity, and Applications (FU Berlin)</a> </li>
 	  <li> <a href="https://www.mfo.de/occasion/2510a/www_view"> Alcoved Polytopes in Physics and Optimization (Oberwolfach) </a> </li>
@@ -507,10 +513,10 @@ For regular subdivisions, the complexity is bounded by the entries of a minimal 
 	<p>Educational Game<br />
 	  <a href="https://matchthenet.de">MatchTheNet</a></p>
 	<p>Math Olympiad<br />
-	  I am involved in the organisation of the mathematical olympiad in Bavaria. For more information see:</p>
+	  I was involved in the organisation of the mathematical olympiad in Bavaria for many years (until 2024). For more information see:</p>
 	<ul>
-	  <li><a href="http://mo-by.de">Mathematik-Olympiade in Bayern </a></li>
-	  <li><a href="http://mathematik-olympiaden.de/">Mathematik-Olympiaden in Deutschland</a></li>
+	  <li><a href="https://mo-by.de/">Mathematik-Olympiade in Bayern </a></li>
+	  <li><a href="https://mathematik-olympiaden.de/">Mathematik-Olympiaden in Deutschland</a></li>
 	  <li><a href="https://mo2018.de/">Bundesrunde 2018 in W&uuml;rzburg</a></li>
 	</ul>
       </div>
