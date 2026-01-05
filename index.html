@@ -103,8 +103,11 @@
 	</ul>
 	<h3>Publications</h3>
 	<ul>
-	  <li><div class="paperbutton" title="abstract">Lower bounds for ranking-based pivot rules</div> with Yann Disser, Matthew Maat, Nils Mosis
+	  <li><div onclick="showInfo('AbstractLBRBP')" class="paperbutton" title="abstract">Lower bounds for ranking-based pivot rules</div> with Yann Disser, Matthew Maat, Nils Mosis (<a href="https://arxiv.org/abs/2512.16684">arxiv</a>)
 	    <br><i>STACS 2026 (accepted)</i>
+	    <div id="AbstractLBRBP" style="display:none"> <br><b>Abstract</b>
+	      The existence of a polynomial pivot rule for the simplex method for linear programming, policy iteration for Markov decision processes, and strategy improvement for parity games each are prominent open problems in their respective fields. While numerous natural candidates for efficient rules have been eliminated, all existing lower bound constructions are tailored to individual or small sets of pivot rules. We introduce a unified framework for formalizing classes of rules according to the information about the input that they rely on. Within this framework, we show lower bounds for \emph{ranking-based} classes of rules that base their decisions on orderings of the improving pivot steps induced by the underlying data. Our first result is a superpolynomial lower bound for strategy improvement, obtained via a family of sink parity games, which applies to memory-based generalizations of Bland's rule that only access the input by comparing the ranks of improving edges in some global order. Our second result is a subexponential lower bound for policy iteration, obtained via a family of Markov decision processes, which applies to memoryless rules that only access the input by comparing improving actions according to their ranks in a global order, their reduced costs, and the associated improvements in objective value. Both results carry over to the simplex method for linear programming.
+	    </div><br>
 	  </li>
 	  <li><div onclick="showInfo('AbstractQMSQMF')" class="paperbutton" title="abstract">Quotients of M-convex sets and M-convex functions</div> with Marie-Charlotte Brandenburg, Ben Smith (<a href="https://arxiv.org/abs/2403.07751">arxiv</a>)
 	    <br><i><a href="https://escholarship.org/uc/combinatorial_theory/acceptedPapers">Combinatorial theory</a></i>
