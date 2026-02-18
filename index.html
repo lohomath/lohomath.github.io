@@ -103,8 +103,20 @@
 	</ul>
 	<h3>Publications</h3>
 	<ul>
+	  <li><div onclick="showInfo('AbstractACNNRM')" class="paperbutton" title="abstract">Arithmetic Circuits and Neural Networks for Regular Matroids</div> with Christoph Hertrich, Stefan Kober (<a href="https://arxiv.org/abs/2511.02406">arxiv</a>)
+	    <br><i><a href="https://events.math.unipd.it/ipco2026/accepted-papers">IPCO 2026</a></i>
+	      <div id="AbstractACNNRM" style="display:none"> <br><b>Abstract</b>
+      We prove that there exist uniform (+,*,/)-circuits of size O(n^3) to compute the basis generating polynomial of regular matroids on n elements. By tropicalization, this implies that there exist uniform (max,+,−)-circuits and ReLU neural networks of the same size for weighted basis maximization of regular matroids. As a consequence in linear programming theory, we obtain a first example where taking the difference of two extended formulations can be more efficient than the best known individual extended formulation of size O(n^6) by Aprile and Fiorini. Such differences have recently been introduced as virtual extended formulations. The proof of our main result relies on a fine-tuned version of Seymour's decomposition of regular matroids which allows us to identify and maintain graphic substructures to which we can apply a local version of the star-mesh transformation.
+    </div><br>
+	    </li>
+	  <li><div onclick="showInfo('AbstractECAFGP')" class="paperbutton" title="abstract">Exact Characterization of Aggregate Flexibility via Generalized Polymatroids</div> with Karan Mukhi, Alessandro Abate (<a href="https://arxiv.org/abs/2503.23458">arxiv</a>)(<a href="https://ieeexplore.ieee.org/document/11369438">publication</a>)
+	    <br><i>IEEE Transactions on Smart Grid 2026</i>
+	    <div id="AbstractECAFGP" style="display:none"> <br><b>Abstract</b>
+	      There is growing interest in utilizing the flexibility in populations of distributed energy resources (DER) to mitigate the intermittency and uncertainty of renewable generation and provide additional grid services. To enable this, aggregators must effectively represent the flexibility in the populations they control to the market or system operator. A key challenge is accurately computing the aggregate flexibility of a population, which can be formally expressed as the Minkowski sum of a collection of polytopes - a problem that is generally computationally intractable. However, the flexibility polytopes of many DERs exhibit structural symmetries that can be exploited for computational efficiency. To this end, we introduce generalized polymatroids - a family of polytope - into the flexibility aggregation literature. We demonstrate that individual flexibility sets belong to this family, enabling efficient computation of their Minkowski sum. For homogeneous populations of DERs we further derive simplifications that yield more succinct representations of aggregate flexibility. Additionally, we develop an efficient optimization framework over these sets and propose a vertex-based disaggregation method, to allocate aggregate flexibility among individual DERs. Finally, we validate the optimality and computational efficiency of our approach through comparisons with existing methods.
+	    </div><br>
+	  </li>
 	  <li><div onclick="showInfo('AbstractLBRBP')" class="paperbutton" title="abstract">Lower bounds for ranking-based pivot rules</div> with Yann Disser, Matthew Maat, Nils Mosis (<a href="https://arxiv.org/abs/2512.16684">arxiv</a>)
-	    <br><i>STACS 2026 (accepted)</i>
+	    <br><i><a href="https://stacs2026.imag.fr/papers/">STACS 2026</a></i>
 	    <div id="AbstractLBRBP" style="display:none"> <br><b>Abstract</b>
 	      The existence of a polynomial pivot rule for the simplex method for linear programming, policy iteration for Markov decision processes, and strategy improvement for parity games each are prominent open problems in their respective fields. While numerous natural candidates for efficient rules have been eliminated, all existing lower bound constructions are tailored to individual or small sets of pivot rules. We introduce a unified framework for formalizing classes of rules according to the information about the input that they rely on. Within this framework, we show lower bounds for \emph{ranking-based} classes of rules that base their decisions on orderings of the improving pivot steps induced by the underlying data. Our first result is a superpolynomial lower bound for strategy improvement, obtained via a family of sink parity games, which applies to memory-based generalizations of Bland's rule that only access the input by comparing the ranks of improving edges in some global order. Our second result is a subexponential lower bound for policy iteration, obtained via a family of Markov decision processes, which applies to memoryless rules that only access the input by comparing improving actions according to their ranks in a global order, their reduced costs, and the associated improvements in objective value. Both results carry over to the simplex method for linear programming.
 	    </div><br>
@@ -302,11 +314,6 @@ In this paper we develop a combinatorial abstraction of tropical linear programm
       It has been demonstrated in various contexts that monotonicity leads to better explainability in neural networks. However, not every function can be well approximated by a monotone neural network. We demonstrate that monotonicity can still be used in two ways to boost explainability. First, we use an adaptation of the decomposition of a trained ReLU network into two monotone and convex parts, thereby overcoming numerical obstacles from an inherent blowup of the weights in this procedure. Our proposed saliency methods - SplitCAM and SplitLRP - improve on state of the art results on both VGG16 and Resnet18 networks on ImageNet-S across all Quantus saliency metric categories. Second, we exhibit that training a model as the difference between two monotone neural networks results in a system with strong self-explainability properties. 
     </div><br>
   </li>
-  <li><div onclick="showInfo('AbstractACNNRM')" class="paperbutton" title="abstract">Arithmetic Circuits and Neural Networks for Regular Matroids</div> with Christoph Hertrich, Stefan Kober (<a href="https://arxiv.org/abs/2511.02406">arxiv</a>)
-    <div id="AbstractACNNRM" style="display:none"> <br><b>Abstract</b>
-      We prove that there exist uniform (+,*,/)-circuits of size O(n^3) to compute the basis generating polynomial of regular matroids on n elements. By tropicalization, this implies that there exist uniform (max,+,−)-circuits and ReLU neural networks of the same size for weighted basis maximization of regular matroids. As a consequence in linear programming theory, we obtain a first example where taking the difference of two extended formulations can be more efficient than the best known individual extended formulation of size O(n^6) by Aprile and Fiorini. Such differences have recently been introduced as virtual extended formulations. The proof of our main result relies on a fine-tuned version of Seymour's decomposition of regular matroids which allows us to identify and maintain graphic substructures to which we can apply a local version of the star-mesh transformation.
-    </div><br>
-  </li>
     <li><div onclick="showInfo('AbstractMRSC')" class="paperbutton" title="abstract">Many rays of the submodular cone</div> with Arnau Padrol, Germain Poullot (<a href="https://arxiv.org/abs/2510.03177">arxiv</a>)
     <div id="AbstractMRSC" style="display:none"> <br><b>Abstract</b>
       The study of the cone of submodular functions goes back to Jack Edmonds' seminal 1970 paper, which already highlighted the difficulty of characterizing its extreme rays. Since then, researchers from diverse fields have sought to characterize, enumerate, and bound the number of such rays. In this paper, we introduce an inductive construction that generates new rays of the submodular cone. This allows us to establish that the n-th submodular cone has at least 2^2^{n−2} rays, which improves upon the lower bound obtained from Hien Q. Nguyen's 1986 characterization of indecomposable matroid polytopes by a factor of order n^{3/2} in the exponent.
@@ -315,11 +322,6 @@ In this paper we develop a combinatorial abstraction of tropical linear programm
   <li><div onclick="showInfo('AbstractMaPo')" class="paperbutton" title="abstract">Maxout Polytopes</div> with Andrei Balakin, Shelby Cox, Bernd Sturmfels (<a href="https://arxiv.org/abs/2509.21286">arxiv</a>)
     <div id="AbstractMaPo" style="display:none"> <br><b>Abstract</b>
       Maxout polytopes are defined by feedforward neural networks with maxout activation function and non-negative weights after the first layer. We characterize the parameter spaces and extremal f-vectors of maxout polytopes for shallow networks, and we study the separating hypersurfaces which arise when a layer is added to the network. We also show that maxout polytopes are cubical for generic networks without bottlenecks.
-    </div><br>
-  </li>
-  <li><div onclick="showInfo('AbstractECAFGP')" class="paperbutton" title="abstract">Exact Characterization of Aggregate Flexibility via Generalized Polymatroids</div> with Karan Mukhi, Alessandro Abate (<a href="https://arxiv.org/abs/2503.23458">arxiv</a>)
-    <div id="AbstractECAFGP" style="display:none"> <br><b>Abstract</b>
-      There is growing interest in utilizing the flexibility in populations of distributed energy resources (DER) to mitigate the intermittency and uncertainty of renewable generation and provide additional grid services. To enable this, aggregators must effectively represent the flexibility in the populations they control to the market or system operator. A key challenge is accurately computing the aggregate flexibility of a population, which can be formally expressed as the Minkowski sum of a collection of polytopes - a problem that is generally computationally intractable. However, the flexibility polytopes of many DERs exhibit structural symmetries that can be exploited for computational efficiency. To this end, we introduce generalized polymatroids - a family of polytope - into the flexibility aggregation literature. We demonstrate that individual flexibility sets belong to this family, enabling efficient computation of their Minkowski sum. For homogeneous populations of DERs we further derive simplifications that yield more succinct representations of aggregate flexibility. Additionally, we develop an efficient optimization framework over these sets and propose a vertex-based disaggregation method, to allocate aggregate flexibility among individual DERs. Finally, we validate the optimality and computational efficiency of our approach through comparisons with existing methods.
     </div><br>
   </li>
   <li><div onclick="showInfo('AbstractCPMPG')" class="paperbutton" title="abstract">Cycle Patterns and Mean Payoff Games</div> with Matthew Maat, Mateusz Skomra (<a href="https://arxiv.org/abs/2503.17294">arxiv</a>)
@@ -393,14 +395,15 @@ For regular subdivisions, the complexity is bounded by the entries of a minimal 
 
     <div class="container" id="teaching">
       <div class="textbox color_3">
-	<h2>Current Teaching (Winter 2025/26)</h2>
+	<h2>Current Teaching (Summer 2026)</h2>
+	More details on <a href="https://mycampus.imp.fu-berlin.de/">WHITEBOARD</a> and the <a href="https://www.fu-berlin.de/vv/en/fb">Course Catalog</a>	
+	<h2>Former Teaching</h2>
+	<h3>Winter 2025/26</h3>
 	<ul>
 	  <li>Seminar Mathematischer Fortschritt mit KI</li>
 	  <li>Vorlesung Lineare Algebra I</li>
 	  <li><a href="https://www.mi.fu-berlin.de/en/math/groups/discgeom/Seminar/index.html">Research Seminar</a> of the Group <i>Discrete Geometry and Topological Combinatorics</i></li>
 	</ul>	
-	<a href="https://mycampus.imp.fu-berlin.de/">More details on WHITEBOARD</a>	
-	<h2>Former Teaching</h2>
 	<h3>Summer 2025</h3>
 	<ul>
 	  <li>Vorlesung / Projekt Mathematik & Nachhaltigkeit (Math & Sustainability)</li>
@@ -449,20 +452,14 @@ For regular subdivisions, the complexity is bounded by the entries of a minimal 
     <div class="container" id="events">
       <div class="textbox color_3">
 	<h2>Selected Events</h2>
-	<h3>Outreach</h3>
-	<ul>
-	  <li> Festvortrag bei der Landesrunde der 63. MO in Bayern <a href="material/Festvortrag-Landesrunde-Bayern-MO-2024.pdf">(slides)</a> </li>
-	  <li> Pi-Day 2024 am K&auml;the-Kollwitz-Gymnasium <a href="material/PiDay2024KKG.pdf">(slides)</a> </li>
-
-	</ul>
 	<h3>Upcoming</h3>
 	<ul>
 	  <li> <a href="https://www.mathematics.uni-bonn.de/him/programs/follow-up-workshops/2026_04_20"> Follow-Up Workshop: "Discrete Optimization" (Hausdorff Research Institute for Mathematics in Bonn) </a> </li>
 	  <li> <a href="https://neuralpolytopes.gitlab.io/workshop2026/"> Workshop on Polyhedral Geometry for Neural Networks (University of Technology Nuremberg)</a> </li>
-	  <li> <a href="https://mathconf.eu/adtg-2026/index.html"> Developments in Algorithmic, Discrete and Tropical Geometry (FU Berlin / ZIB)</a> </li>
 	</ul> 
 	<h3>Some past events</h3>
 	<ul>
+	  <li> <a href="https://mathconf.eu/adtg-2026/index.html"> Developments in Algorithmic, Discrete and Tropical Geometry (FU Berlin / ZIB)</a> </li>
 	  <li> <a href="https://www.crm.cat/conferenceirpmdm2025/"> Closing conference of the Intense Research Program Combinatorial Geometries and Geometric Combinatorics (CRM, Barcelona) </a> </li>
 	  <li> <a href="https://www.combinatorial-synergies.de/activities/2025-09_AnnualConference/">Second Annual Conference of the Priority Program Combinatorial Synergies (SPP2458) </a> </li>
 	  <li> <a href="https://lohomath.github.io/simplex-2025.html"> The Simplex Method: Theory, Complexity, and Applications (FU Berlin)</a> </li>
@@ -491,6 +488,12 @@ For regular subdivisions, the complexity is bounded by the entries of a minimal 
 	  <li>IGAFIT Workshop for Algorithms Postdocs in Europe (AlgPiE by IGAFIT 2019), October 14 - 18, 2019 </li>
 	  <li> Discrete geometry with a view on symplectic and tropical geometry, September 23 - 27, 2019 <a href="material/loho-slides-koeln.pdf">(slides)</a> </li>	    
 	  <li> SIAM Conference on Applied Algebraic Geometry, July 9 - 13, 2019; Co-organization of session &#8220;Computational aspects of tropical geometry&#8221; </li>
+	</ul>
+	<h3>Outreach</h3>
+	<ul>
+	  <li> Festvortrag bei der Landesrunde der 63. MO in Bayern <a href="material/Festvortrag-Landesrunde-Bayern-MO-2024.pdf">(slides)</a> </li>
+	  <li> Pi-Day 2024 am K&auml;the-Kollwitz-Gymnasium <a href="material/PiDay2024KKG.pdf">(slides)</a> </li>
+
 	</ul>
       </div>
     </div>
